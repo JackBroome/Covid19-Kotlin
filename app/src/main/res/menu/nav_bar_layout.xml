@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navbar_overview"
+        android:enabled="true"
+        android:title="Overview"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navbar_locations"
+        android:enabled="true"
+        android:title="Locations"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navbar_regions"
+        android:enabled="true"
+        android:title="NHS Regions"
+        app:showAsAction="always" />
+</menu>
